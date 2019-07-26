@@ -6,6 +6,7 @@
   git:
     repo: "{{ netdata_git_repo }}"
     dest: "{{ netdata_source_dir }}"
+    version: "{{ netdata_git_version }}"
     depth: 1
   become: true
 
