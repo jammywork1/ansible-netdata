@@ -56,7 +56,7 @@ netdata_debian_pre_reqs:
 
 # Defines the Git repo to pull down for installs
 netdata_git_repo: https://github.com/netdata/netdata.git
-netdata_git_version: v1.16.0
+netdata_git_version: v1.19.0
 
 # Defines whether Netdata health is enabled
 netdata_health_enabled: true
@@ -175,7 +175,7 @@ netdata_stream_proxy: false
 netdata_uninstall: false
 
 # Defines the Netdata uninstaller script
-netdata_uninstaller: ./netdata-uninstaller.sh
+netdata_uninstaller: ./packaging/installer/netdata-uninstaller.sh
 
 # Defines if Netdata should be updated
 # Not the same as auto_updates
@@ -187,7 +187,7 @@ netdata_update_force: false
 netdata_update_every: 1
 
 # Defines Netdata update script
-netdata_updater: ./netdata-updater.sh
+netdata_updater: ./packaging/installer/netdata-updater.sh
 
 # Defines Netdata user info
 netdata_user_info:
