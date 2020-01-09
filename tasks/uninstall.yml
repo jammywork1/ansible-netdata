@@ -14,7 +14,7 @@
   become: true
 
 - name: uninstall | Uninstalling Netdata
-  command: "{{ netdata_uninstaller }} --force"
+  command: "{{ netdata_uninstaller }} --force --yes"
   args:
     chdir: "{{ netdata_source_dir }}"
   become: true
